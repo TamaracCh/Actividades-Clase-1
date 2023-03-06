@@ -1,0 +1,78 @@
+PUNTO 1-A :
+
+package segundoproyectodeprueba;
+
+public class principal {
+
+	public static void main(String[] args ) {
+		int numeroInicio = 5;
+		int numeroFin = 14;
+		
+		while(numeroInicio <= numeroFin) {
+			System.out.println(numeroInicio);
+			numeroInicio=numeroInicio+1;
+		}
+	}
+}
+
+
+PUNTO 1.B :
+
+package segundoproyectodeprueba;
+
+public class secundario {
+	
+	public static void main(String[] args ) {
+		int numeroInicio = 5;
+		int numeroFin = 14;
+		
+		while(numeroInicio <= numeroFin) {
+			System.out.println(numeroInicio+1);
+			numeroInicio=numeroInicio+2;
+		}
+	}
+}
+
+
+PUNTO 1.D :
+
+package segundoproyectodeprueba;
+
+public class cuartoint {
+	
+	public static void main(String[] args) {
+		int numeroInicio=5;
+		int numeroFin=14;
+		
+		for(numeroInicio = 5; numeroInicio<= numeroFin ; numeroInicio=numeroInicio+2 ) {
+			System.out.println(numeroInicio);
+		}
+	}
+}
+
+
+
+PUNTO 2 :
+
+package segundoproyectodeprueba;
+
+public class actividaddos {
+	public static void main(String[] args) {
+		float ingresosTotales = 250000;
+		int cantidadDeVehiculos = 2;
+		int cantidadDeInmuebles = 2;
+		boolean poseerEmbarcacionOAeronave = false;
+		
+		if ((ingresosTotales > 489083) ||//
+				(cantidadDeVehiculos >= 3) || //
+				(cantidadDeInmuebles >= 3) || //
+				(poseerEmbarcacionOAeronave == true)
+				) {
+			System.out.println("si es de segmento alto");
+		} else {
+			System.out.println("no es de segmento alto");
+		}
+	}
+
+}
+
